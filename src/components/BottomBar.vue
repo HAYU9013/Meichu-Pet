@@ -11,7 +11,8 @@
         <!-- 中間圖標換成 tsmc.png -->
         <button class="nav-item home-btn" @click="navigateTo('Main')">
             <div class="home-icon">
-                <img src="tsmc.png" alt="Home" class="tsmc-icon" />
+                
+                <font-awesome-icon :icon="['fas', 'home']" class="icon" />
             </div>
         </button>
 
