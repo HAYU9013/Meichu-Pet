@@ -18,6 +18,7 @@ import {
   faExchangeAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import './registerServiceWorker'
 
 // 將圖標添加到庫中
 // library.add(
